@@ -17,9 +17,9 @@ if (ValidateNumberRank3(number))
     System.Console.WriteLine($"Третья цифра {thirdRank}");
 }
 
-bool ValidateNumberRank3(int number)
+bool ValidateNumberRank3(int num)
 {
-    if (number > 99)
+    if (num > 99)
     {
         return true;
     }
